@@ -31,7 +31,8 @@ const Root = ({
 
 const Button = (props: StyleProps) => {
   const superinterfaceContext = useSuperinterfaceContext()
-  const { isDisabled, isLoading, isFileLoading } = useMessageFormContext()
+  const { isDisabled, isLoading, isFileLoading ,content} = useMessageFormContext()
+  console.log('content', content)
 
   if (isLoading) {
     return (
