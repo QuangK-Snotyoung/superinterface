@@ -1,0 +1,2 @@
+"use client";import{C as i,D as r}from"./chunk-CVDFGJFQ.mjs";import{a,f as e}from"./chunk-VZ4W2FJS.mjs";import{c as o}from"./chunk-VAX7AB37.mjs";var h=o(a(),1);var s=class extends i{$$PROVIDER_TYPE="AUDIO";get type(){return"audio"}airPlay;constructor(p,t){super(p,t),e(()=>{this.airPlay=new r(this.media,t)},this.scope)}setup(){super.setup(),this.type==="audio"&&this.ctx.notify("provider-setup",this)}get audio(){return this.media}};export{s as AudioProvider};
+//# sourceMappingURL=vidstack-R_ot4AhB-4CGDQPX7.mjs.map
